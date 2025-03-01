@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                display: flex;
+                overflow: hidden;
+                border: 0px;
+                touch-action: none;
+            }
+
+            .noBorder {
+                border: 0px;
+            }
+
+            .mainContainer {
+                display: flex;
+                width: 100vw;
+                height: 100vh;
+                background: #aaa;
+            }
+            
+            .joyContainer {
+                width: 30%;
+                height: 100%;
+                background-color: #555;
+            }
+
+            .feedContainer {
+                display: flex;
+                width: auto;
+                background-color: #000;
+                aspect-ratio: 4/3;
+            }
+
+            .buttonContainer {
+                width: 20%;
+                height: 100%;
+                background-color: #555;
+            }
+
+            .canvAll{
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+        <title>RMMC_FireExtBot</title>
+        <link rel="icon" type="image/png" href="favicon.png">
+    </head>
+    <body>
+        <div class="mainContainer">
+
+            <div class="joyContainer" id="joyDiv">
+                <canvas id="joyCanvas" class="canvAll"></canvas>
+            </div>
+
+            <div class="feedContainer">
+                <img id="stream" src="" />
+            </div>
+
+            <div class="buttonContainer" id="buttonContainer">
+                <canvas id="buttonCanvas" class="canvAll"></canvas>
+            </div>
+
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+
+</html>
