@@ -11,4 +11,6 @@ I also can't seem to get this to work with AsyncWebServer, something something t
 
 I've tried to credit every code snippet I've copied as best as I can. If I've forgotten to credit something else, idk put up an issue or something and I'll try and rectify it. 
 
+My favicon handler implementation only supports PNGs I think. Do edit it to your project's needs.
+
 This was all done in PlatformIO. I've had plenty of troubles using Arduino's IDE to warrant me to switch over to VSCode. 
