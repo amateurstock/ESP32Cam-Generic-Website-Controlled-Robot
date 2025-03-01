@@ -568,4 +568,4 @@ new touchCanvas("buttonCanvas");
 // Terrible patchwork but hey, it works
 
 renderCircles("center");
-//startSendingInputs(75);
+startSendingInputs(75);
