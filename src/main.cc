@@ -37,6 +37,8 @@ IPAddress gateway  (192, 168,  4,   0);
 IPAddress subnet   (255, 255, 255,   0);
 #endif
 
+// Change this into the resolution you need.
+// Your LSP should list what's available.
 framesize_t frame_select = FRAMESIZE_HVGA;
 
 // Pin initializations. Make your own custom ones here.

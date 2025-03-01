@@ -43,8 +43,8 @@ esp_err_t init_cam() {
     cfg.pin_pwdn = PWDN_GPIO_NUM;
     cfg.pin_reset = RESET_GPIO_NUM;
     cfg.xclk_freq_hz = 20000000;
-    cfg.frame_size = frame_select;
-    cfg.pixel_format = PIXFORMAT_JPEG; // Streaming resolution
+    cfg.frame_size = frame_select; // Streaming resolution. Change it in main.
+    cfg.pixel_format = PIXFORMAT_JPEG;
     cfg.grab_mode = CAMERA_GRAB_WHEN_EMPTY;
     cfg.fb_location = CAMERA_FB_IN_PSRAM;
     cfg.jpeg_quality = 12; // Streaming quality
